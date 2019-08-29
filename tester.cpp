@@ -18,7 +18,7 @@ void Tester::sorts(int *array, size_t size) {
     Sort* sort;
     int temp[size];
 
-    for (int i = COUNTING; i <= COUNTING; i++) {
+    for (int i = SHELL; i <= SHELL; i++) {
         copy(array, array + size, temp);
         sort = getSort(static_cast<Algorithm>(i), temp, size);
         sort->execute();
