@@ -27,6 +27,7 @@ class CountingSort : public Sort {
             }
         }
 
+
         inline string name() { return "CountingSort"; }
 };
 
